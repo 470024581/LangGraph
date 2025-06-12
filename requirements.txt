@@ -1,0 +1,38 @@
+# LangGraph Core Dependencies
+langgraph>=0.2.0
+langgraph-checkpoint-sqlite>=2.0.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+
+# Ollama Support
+httpx>=0.24.0
+
+# Document Processing
+pypdf2>=3.0.1
+python-docx>=1.1.0
+pandas>=2.1.0
+openpyxl>=3.1.0
+
+# Vector Database and Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Database Support
+sqlalchemy>=2.0.0
+aiosqlite>=0.17.0
+
+# Async Support
+aiofiles>=23.2.0
+
+# Configuration Management
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# Logging and Monitoring
+loguru>=0.7.0
+
+# Development Tools
+pytest>=7.4.0
+black>=23.0.0
+pylint>=3.0.0 
